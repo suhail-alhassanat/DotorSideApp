@@ -1,4 +1,4 @@
-package com.suhail.dotorsideapp;
+package com.suhail.dotorsideapp.ui.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 

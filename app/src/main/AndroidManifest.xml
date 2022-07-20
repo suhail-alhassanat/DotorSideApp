@@ -14,13 +14,13 @@
         android:theme="@style/Theme.DotorSideApp"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
+            android:name=".ui.activities.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".FirstTimeLoginActivity"
+            android:name=".ui.activities.FirstTimeLoginActivity"
             android:exported="false" />
         <activity
-            android:name=".EmailCheckActivity"
+            android:name=".ui.activities.EmailCheckActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,7 +29,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.activities.MainActivity"
             android:exported="true" />
     </application>
 
